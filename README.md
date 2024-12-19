@@ -1,7 +1,7 @@
 # Breast Guard
 Breast Guard is a machine learning project aimed at predicting whether a patient is diagnosed with breast cancer based on historical data and diagnostic features. This model uses various machine learning algorithms to classify patient data into two categories: diagnosed with cancer or not.
 
-Key Features:
+ # Key Features:
 Algorithms Used: Logistic Regression, Decision Tree, and Random Forest for classification.
 Data Preprocessing: Utilized Pandas and NumPy for data manipulation, cleaning, and analysis.
 Model Development: Scikit-learn was used to develop and train the machine learning models.
