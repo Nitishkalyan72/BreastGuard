@@ -107,8 +107,8 @@ With proper validation and integration into healthcare systems, it could serve a
 **Nitish Kalyan**  
 *Machine Learning Enthusiast | Developer | Innovator*  
 
-📧 **Email:** [nitish.kalyan@example.com](mailto:nitishkalyan7249@gmail.com)  
-🌐 **GitHub:** [github.com/NitishKalyan](https://github.com/NitishKalyan72)
+📧 **Email:** [nitishkalyan7249@gmail.com](mailto:nitishkalyan7249@gmail.com)  
+🌐 **GitHub:** [github.com/NitishKalyan72](https://github.com/NitishKalyan72)
 
 ---
 
