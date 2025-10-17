@@ -105,8 +105,3 @@ The notebook concluded that **PCA** is an effective method for dimensionality re
 ## 🙌 Acknowledgment
 Thanks for reviewing this project!  
 This notebook aims to make complex concepts like PCA and LDA easier to understand through step-by-step implementation and clear visualizations.
-
----
-
-### 🦁 You can do it man  
-**Always.**
