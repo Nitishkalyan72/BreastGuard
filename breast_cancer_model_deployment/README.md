@@ -39,4 +39,4 @@ probabilities = model.predict_proba(scaled_features)[:, 1]
 - Compliance with healthcare regulations required
 
 ## Version: 1.0.0
-## Training Date: 2025-10-31T09:18:19.451596
+## Training Date: 2025-11-01T13:28:34.847735

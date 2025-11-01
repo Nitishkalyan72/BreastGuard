@@ -1,7 +1,7 @@
 {
   "model_name": "breast_cancer_logistic_regression",
   "version": "1.0.0",
-  "training_date": "2025-10-31T09:18:19.451596",
+  "training_date": "2025-11-01T13:28:34.847735",
   "dataset": "Wisconsin Diagnostic Breast Cancer Dataset",
   "features": [
     "compactness_mean",
