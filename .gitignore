@@ -1,0 +1,96 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ===== Build =====
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pythonlibs/
+
+# ===== Virtual environments =====
+venv/
+ENV/
+env/
+.venv/
+.venv
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs & Reports =====
+*.log
+logs/
+*.out
+*.err
+
+# ===== Environment & Credentials =====
+.env
+.env.local
+.env.*.local
+.envrc
+secrets.json
+config.json
+
+# ===== Machine Learning Artifacts =====
+*.pkl
+*.joblib
+*.h5
+*.model
+*.npz
+*.npy
+*.csv
+*.arff
+*.sav
+*.mat
+*.bin
+
+# ===== Jupyter Notebook Checkpoints =====
+.ipynb_checkpoints/
+
+# ===== Flask / Deployment Cache =====
+instance/
+__pycache__/
+*.db
+*.sqlite3
+*.sqlite
+*.pyc
+
+# ===== Temporary / OS =====
+tmp/
+temp/
+*.bak
+*.swp
+*.tmp
+
+# ===== Miscellaneous =====
+*.tgz
+*.tar.gz
+*.zip
+*.rar
+*.7z
