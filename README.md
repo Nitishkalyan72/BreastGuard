@@ -14,6 +14,8 @@
 **BreastGuard** is an AI-based web application that predicts the likelihood of breast cancer using clinical cell nucleus data.  
 It leverages a **Logistic Regression model** with explainable AI (SHAP) and **Gemini-powered NLP health insights** to make medical predictions transparent and human-understandable.
 
+🌐 **Live Demo:** [https://breastguard-ai.onrender.com](https://breastguard-ai.onrender.com)
+
 ---
 
 ## 🧠 Key Features  
@@ -80,6 +82,8 @@ The model uses 10 features for prediction:
 2️⃣ Data passes through **`preprocessor.py`** → applies `log1p` transformation & scaling  
 3️⃣ Model predicts benign/malignant outcome  
 4️⃣ **SHAP & Gemini AI** modules explain *why* that result occurred  
+
+🌐 **Live Demo:** [https://breastguard-ai.onrender.com](https://breastguard-ai.onrender.com)
 
 ---
 
