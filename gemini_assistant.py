@@ -52,21 +52,24 @@ class GeminiHealthAssistant:
                 contribution = "increased cancer risk" if feat['contribution'] == "malignant" else "decreased cancer risk"
                 features_description += f"{i}. {feat['feature']} — This feature {contribution}.<br>"
 
-            prompt = f"""You are a professional AI medical assistant providing detailed breast cancer screening analysis.
-            Prediction Result: {result_text}
-            Confidence Level: {confidence:.1f}%
+            prompt = f"""
+            You are a medical AI assistant summarizing breast cancer screening results.
 
-            Key Contributing Features:
-            {features_description}
+            Prediction: {result_text} (Confidence: {confidence:.1f}%)
+            Key Features: {features_description}
 
-            Your Task:
-            Provide a comprehensive professional medical explanation of this result. Use appropriate medical terminology while remaining clear and educational.
+            Task:
+            Give a short, clear explanation (under 100 words) describing what this result means in simple medical terms.
 
-            Required Format (keep section titles as given):
-            📋 Clinical Assessment:
-            🔍 Feature Analysis:
-            💡 Clinical Recommendations:
+            Format:
+            📋 Summary:
+            Briefly describe what the prediction suggests.
+            🔍 Key Factors:
+            List only the main 2–3 features influencing the result.
+            💡 Next Step:
+            Give one short medical recommendation.
             """
+
 
             response = self.client.models.generate_content(
                 model="gemini-2.0-flash-exp",
