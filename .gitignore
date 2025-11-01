@@ -58,7 +58,7 @@ secrets.json
 config.json
 
 # ===== Machine Learning Artifacts =====
-*.pkl
+# *.pkl
 *.joblib
 *.h5
 *.model
